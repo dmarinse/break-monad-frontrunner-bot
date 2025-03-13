@@ -32,7 +32,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println("Address", "Wins/Losses")
+	fmt.Println("Address", "Wins/Losses") 
 
 	for _, score := range scores {
 		fmt.Printf("%s %s/%s\n", score.Address.Hex(), score.Wins, score.Losses)
